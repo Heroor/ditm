@@ -1,0 +1,15 @@
+{
+  "name": "ditm",
+  "version": "1.0.4",
+  "description": "Create a simple project file structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "project",
+    "file structure"
+  ],
+  "author": "Heroor",
+  "license": "ISC"
+}
