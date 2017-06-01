@@ -50,31 +50,31 @@ You can customize the list of initialized files！
 > config.json
 
 	{
-	  "rootName" : "demo",
-	  "data" : [
-	    {
-	      "name" : "index.html",
-	      "type" : "file"
-	    }, {
-	      "name" : "404.html",
-	      "type" : "file"
-	    }, {
-	      "name" : "base.css",
-	      "type" : "file"
-	    }, {
-	      "name" : "css",
-	      "type" : "dir"
-	    }, {
-	      "name" : "js",
-	      "type" : "dir"
-	    }, {
-	      "name" : "images",
-	      "type" : "dir"
-	    }, {
-	      "name" : "lib",
-	      "type" : "dir"
-	    }
-	  ]
+	    "rootName" : "demo",
+	    "data" : [
+	        {
+	            "name" : "index.html",
+	            "type" : "file"
+	        }, {
+    	            "name" : "404.html",
+	            "type" : "file"
+	        }, {
+	            "name" : "base.css",
+	            "type" : "file"
+	        }, {
+	            "name" : "css",
+	            "type" : "dir"
+	        }, {
+	            "name" : "js",
+	            "type" : "dir"
+	        }, {
+	            "name" : "images",
+	            "type" : "dir"
+	        }, {
+	            "name" : "lib",
+	            "type" : "dir"
+	        }
+	    ]
 	}
 
 
