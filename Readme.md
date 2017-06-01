@@ -1,11 +1,13 @@
 # ditm  
 ### Develop the Initialize Tool Manager  
 开发初始化工具管理器   
+You can customize the initialized directory  
+你可以自定义初始化的目录  
   
 Use ditm to quickly build a simple project structure directory   
 使用ditm可以快速构建一个简单的项目结构目录  
 
-### how to use？ 
+### how to use？  
 如何使用？   
    
 	npm install ditm -g  
@@ -48,40 +50,40 @@ You can customize the list of initialized files！
 > config.json
 
 	{
-		"rootName" : "demo",
-		"data" : [
-			{
-				"name" : "index.html",
-				"type" : "file"
-			}, {
-				"name" : "404.html",
-				"type" : "file"
-			}, {
-				"name" : "base.css",
-				"type" : "file"
-			}, {
-				"name" : "css",
-				"type" : "dir"
-			}, {
-				"name" : "js",
-				"type" : "dir"
-			}, {
-				"name" : "images",
-				"type" : "dir"
-			}, {
-				"name" : "lib",
-				"type" : "dir"
-			}
-		]
+	  "rootName" : "demo",
+	  "data" : [
+	    {
+	      "name" : "index.html",
+	      "type" : "file"
+	    }, {
+	      "name" : "404.html",
+	      "type" : "file"
+	    }, {
+	      "name" : "base.css",
+	      "type" : "file"
+	    }, {
+	      "name" : "css",
+	      "type" : "dir"
+	    }, {
+	      "name" : "js",
+	      "type" : "dir"
+	    }, {
+	      "name" : "images",
+	      "type" : "dir"
+	    }, {
+	      "name" : "lib",
+	      "type" : "dir"
+	    }
+	  ]
 	}
 
 
-Change `name` in` data` to the name of the file you want   
-Change `type` in` data` to the type you want  
+Change `name` in ` data` to the name of the file you want   
+Change `type` in ` data` to the type you want  
 `Dir` is the directory  
 `File` is the file  
 
-把`data`中的`name`修改成你要的文件名字  
-把`data`中的`type`修改成你要的类型  
+把 `data` 中的 `name` 修改成你要的文件名字  
+把 `data` 中的 `type` 修改成你要的类型  
 	`dir` 是目录  
-	`file`是文件  
+	`file` 是文件  

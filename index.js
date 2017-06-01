@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const tool = require('./lib/init.js');
 const pack = require('./package.json');
 
