@@ -48,35 +48,35 @@ Use ditm to quickly build a simple project structure directory
 You can customize the list of initialized files！   
 你可以自定义初始化的文件列表！ 
 > config.json
-
-	{
-	    "rootName" : "demo",
-	    "data" : [
-	        {
-	            "name" : "index.html",
-	            "type" : "file"
-	        }, {
-    	            "name" : "404.html",
-	            "type" : "file"
-	        }, {
-	            "name" : "base.css",
-	            "type" : "file"
-	        }, {
-	            "name" : "css",
-	            "type" : "dir"
-	        }, {
-	            "name" : "js",
-	            "type" : "dir"
-	        }, {
-	            "name" : "images",
-	            "type" : "dir"
-	        }, {
-	            "name" : "lib",
-	            "type" : "dir"
-	        }
-	    ]
-	}
-
+```json
+{
+    "rootName" : "demo",
+    "data" : [
+        {
+            "name" : "index.html",
+            "type" : "file"
+        }, {
+   	            "name" : "404.html",
+            "type" : "file"
+        }, {
+            "name" : "base.css",
+            "type" : "file"
+        }, {
+            "name" : "css",
+            "type" : "dir"
+        }, {
+            "name" : "js",
+            "type" : "dir"
+        }, {
+            "name" : "images",
+            "type" : "dir"
+        }, {
+            "name" : "lib",
+            "type" : "dir"
+        }
+    ]
+}
+```
 
 Change `name` in ` data` to the name of the file you want   
 Change `type` in ` data` to the type you want  
