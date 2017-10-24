@@ -9,9 +9,10 @@ Use ditm to quickly build a simple project structure directory
 
 ### how to use？  
 如何使用？   
-   
-	npm install ditm -g  
 
+```shell
+npm install ditm -g  
+```
 
 - `ditm -v`
 	> Get the version.  
@@ -56,7 +57,7 @@ You can customize the list of initialized files！
             "name" : "index.html",
             "type" : "file"
         }, {
-   	            "name" : "404.html",
+            "name" : "404.html",
             "type" : "file"
         }, {
             "name" : "base.css",
