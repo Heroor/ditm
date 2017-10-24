@@ -34,21 +34,28 @@ npm install ditm -g
 ### Generated directory structure  
 生成的目录结构   
 
--- demo  
- +-- css  
- |-- base.css  
- +-- js  
- +-- lib  
- +-- images  
- +-- index.html  
- +-- 404.html  
-
+```
+.  
+├── css/                        # css  
+│   └── base.css                # css reset  
+│   └── ...  
+├── js/                         # js  
+│   └── ...  
+├── lib/                        # library  
+│   └── ...  
+├── images/                     # images  
+│   └── ...  
+├── index.html                  # index page  
+└── 404.html                    # 404 page  
+```
 
 ### customize
 
 You can customize the list of initialized files！   
 你可以自定义初始化的文件列表！ 
+
 > config.json
+
 ```json
 {
     "rootName" : "demo",
